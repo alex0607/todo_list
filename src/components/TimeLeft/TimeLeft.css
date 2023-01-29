@@ -1,0 +1,8 @@
+.TimeLeft {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.TimeLeft--time-ended {
+  color: #c65c5c;
+}

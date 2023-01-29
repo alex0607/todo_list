@@ -1,0 +1,28 @@
+.Task {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 2px solid #fdd298;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px 10px 10px 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Task--completed {
+  border-color: #defcba;
+}
+
+.Task--time-ended {
+  border-color: #c65c5c;
+}
+
+.Task__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Task__buttons {
+  margin-left: auto;
+}

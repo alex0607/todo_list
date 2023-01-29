@@ -1,0 +1,41 @@
+.CustomModal__title-input.MuiFormControl-root {
+  margin-bottom: 10px;
+  width: 280px;
+}
+
+.CustomModal__description {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  width: 280px;
+}
+
+.CustomModal__description .MuiFormControl-root {
+  width: 100%;
+}
+
+.CustomModal__add-button.MuiButtonBase-root {
+  margin-top: 15px;
+}
+
+.CustomModal__Switch.MuiFormControlLabel-root {
+  margin: 15px 0 0;
+}
+
+.CustomModal__DatePicker.MuiFormControl-root {
+  margin-top: 15px;
+}
+
+.CustomModal__help-text {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #d6dbdf;
+}
+
+.CustomModal__buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 280px;
+  justify-content: space-between;
+}

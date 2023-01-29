@@ -1,6 +1,5 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { Button } from '@mui/material';
+import { useSelector } from 'react-redux';
 import Task from '../Task/Task';
 import StoreState, { ITask } from '../../store/types';
 

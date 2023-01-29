@@ -3,7 +3,7 @@
   padding: 15px;
   border: 2px solid black;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
   margin-right: 30px;
   min-height: 700px;
 }

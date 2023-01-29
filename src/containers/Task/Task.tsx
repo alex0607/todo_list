@@ -24,7 +24,6 @@ type TaskType = {
 
 const Task = ({ title = '', descriptions, id = '', completed = false, endTime }: TaskType) => {
   const dispatch = useDispatch();
-  const [timeWasEnded, setTimeWasEnded] = React.useState(false);
 
   const handleRemoveTask = () => {
     if (completed) {
